@@ -7,7 +7,7 @@ describe('webpack-base-test.js test case', () => {
   console.log(baseConfig)
 
   it('entry', () => {
-    assert.equal(baseConfig.entry.index,'/Users/yefeitang/Documents/toys/webpack-seed/test/smoke/template/src/index/index.js')
+    assert.equal(baseConfig.entry.index.indexOf('/test/smoke/template/src/index/index.js')>-1, true)
   });
 })
 

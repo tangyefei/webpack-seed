@@ -15,6 +15,7 @@
   },
   "husky": {
     "hooks": {
+      "pre-commit": "echo \"this should fail\" && exit 1",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },

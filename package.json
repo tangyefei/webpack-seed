@@ -13,6 +13,11 @@
     "eslint": "eslint ./lib --fix",
     "test": "istanbul cover ./node_modules/.bin/_mocha"
   },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -52,6 +57,7 @@
     "assert": "^2.0.0",
     "chai": "^4.2.0",
     "glob-all": "^3.1.0",
+    "husky": "^4.2.3",
     "istanbul": "^0.4.5",
     "mocha": "^7.1.0",
     "rimraf": "^3.0.2"

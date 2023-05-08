@@ -63,7 +63,7 @@
     "glob-all": "^3.1.0",
     "husky": "^4.2.3",
     "istanbul": "^0.4.5",
-    "mocha": "^7.1.0",
+    "mocha": "^10.2.0",
     "rimraf": "^3.0.2",
     "validate-commit-msg": "^2.14.0"
   }
